@@ -36,5 +36,6 @@ class Ride < ApplicationRecord
             nausea: new_nausea,
             happiness: new_happiness
         )
+        "Thanks for riding the #{self.attraction.name}!"
     end
 end
